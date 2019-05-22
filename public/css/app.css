@@ -10662,3 +10662,15 @@ a.text-dark:focus {
   }
 }
 
+body {
+  text-align: center;
+}
+
+body header {
+  background-color: #6574cd;
+}
+
+body footer {
+  background-color: #4dc0b5;
+}
+
