@@ -10683,6 +10683,15 @@ body table tr:nth-child(odd) {
   background-color: lightgrey;
 }
 
+body table button {
+  background-color: transparent;
+  border: none;
+}
+
+body table button:hover {
+  color: red;
+}
+
 body footer {
   background-color: #4dc0b5;
   margin-top: 20px;

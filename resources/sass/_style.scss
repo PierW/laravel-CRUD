@@ -9,6 +9,14 @@ body{
     tr:nth-child(odd){
       background-color: lightgrey;
     }
+    button{
+      background-color: transparent;
+      border: none;
+
+      &:hover{
+        color: red;
+      }
+    }
   }
   footer{
     background-color: $teal;
