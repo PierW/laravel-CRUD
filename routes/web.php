@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('page.home');
+    return view('layout.template');
 });
+
+Route::resource("cars", "CarController");

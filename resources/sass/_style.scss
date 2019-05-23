@@ -3,7 +3,15 @@ body{
   header{
     background-color: $indigo;
   }
+  table{
+    margin: auto;
+    width: 400px;
+    tr:nth-child(odd){
+      background-color: lightgrey;
+    }
+  }
   footer{
     background-color: $teal;
+    margin-top: 20px;
   }
 }

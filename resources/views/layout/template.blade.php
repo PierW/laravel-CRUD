@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>CONCESSIIONARIA</title>
+    <!-- Mio Js -->
     <script src="{{ mix('js/app.js') }}" charset="utf-8"></script>
+    <!-- Mio Css -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
   </head>
   <body>
     <header>
-      <h1>HEADER</h1>
+      <a href="{{route('cars.index')}}">
+        <h1>HEADER</h1>
+      </a>
     </header>
 
     @yield('content')
